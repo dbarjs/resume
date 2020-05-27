@@ -1,4 +1,15 @@
+// only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/<repository-name>/'
+        }
+      }
+    : {}
+
 export default {
+  ...routerBase,
   mode: 'spa',
   /*
    ** Headers of the page
@@ -60,8 +71,5 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
-  },
-  router: {
-    base: '/resume/'
   }
 }
