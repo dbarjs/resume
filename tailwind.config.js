@@ -5,14 +5,23 @@
  ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
 module.exports = {
-  purge: [
-    './pages/**/*.vue',
-    './components/**/*.vue',
-    './plugins/**/*.vue',
-    './static/**/*.vue',
-    './store/**/*.vue'
-  ],
-  theme: {},
+  theme: {
+    extend: {
+      screens: {
+        print: { raw: 'print' }
+      }
+    }
+  },
   variants: {},
-  plugins: []
+  plugins: [],
+  purge: {
+    enabled: process.env.NODE_ENV === 'production',
+    content: [
+      'components/**/*.vue',
+      'layouts/**/*.vue',
+      'pages/**/*.vue',
+      'plugins/**/*.js',
+      'nuxt.config.js'
+    ]
+  }
 }
