@@ -1,52 +1,51 @@
 <template>
-  <div class="flex-grow">
-    <div class="container mx-auto p-6 md:pt-12 lg:max-w-screen-sm">
-      <h1 class="mb-6">
-        Eduardo Barros
-        <span>
-          Engenheiro de Software
-        </span>
-      </h1>
-      <h2>Sobre</h2>
-      <p>
-        Desenvolvedor de Software e estudante de Gestão Empresarial, sou
-        completamente apaixonado por Tecnologia, Marketing e Inovação. Atuo como
-        desenvolvedor Full Stack em aplicações Web e também como consultor de
-        TI.
-      </p>
-      <job-section></job-section>
+  <main class="main flex-grow pt-4 pb-6 md:pt-12">
+    <div class="container mx-auto px-6 lg:max-w-screen-sm">
+      <about-section></about-section>
+      <education-section></education-section>
+      <experience-section></experience-section>
     </div>
-  </div>
+  </main>
 </template>
 
 <script>
-import JobSection from '~/components/JobSection.vue'
+import AboutSection from '~/components/AboutSection.vue'
+import EducationSection from '~/components/EducationSection.vue'
+import ExperienceSection from '~/components/ExperienceSection.vue'
 export default {
   components: {
-    JobSection
+    AboutSection,
+    EducationSection,
+    ExperienceSection
   }
 }
 </script>
 
 <style>
-article {
-  @apply pt-4 pb-6;
+.main {
+  @apply;
 }
 
-article h2 {
+.main section h2 {
   @apply text-xl pt-3;
   position: relative;
 }
 
-article h2::before {
+.main section h2::before {
   content: '';
-  border-bottom: solid 1px #9e9e9e;
+  border-bottom: solid 2px #757575;
   width: 2.5rem;
   position: absolute;
   top: 0;
 }
+</style>
 
-article h3 {
-  @apply text-lg;
+<style>
+@media print {
+  .main {
+    @apply h-full;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
 }
 </style>
