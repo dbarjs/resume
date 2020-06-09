@@ -1,5 +1,7 @@
 <template>
-  <div class="flex flex-col md:flex-row md:items-stretch min-h-screen">
+  <div
+    class="resume two-pages margin flex-col md:flex-row md:items-stretch print:flex-row"
+  >
     <Header></Header>
     <nuxt />
   </div>
@@ -46,7 +48,54 @@ h2 {
   @apply text-xl mb-3;
 }
 
+h3 {
+  @apply text-lg;
+}
+
 p {
-  @apply text-base text-gray-700;
+  @apply text-base;
+}
+</style>
+
+<style>
+.resume {
+  @apply flex min-h-screen;
+}
+</style>
+
+<style>
+@page {
+  size: A4;
+  margin: 10mm;
+}
+
+@media print {
+  .resume {
+    height: 297mm;
+  }
+
+  .resume.margin {
+    height: 277mm;
+  }
+
+  .resume.two-pages {
+    height: 594mm;
+  }
+
+  .resume.two-pages.margin {
+    height: 554mm;
+  }
+
+  .resume.three-pages {
+    height: 891mm;
+  }
+
+  .resume.three-pages.margin {
+    height: 831mm;
+  }
+
+  .print-hidden {
+    display: none;
+  }
 }
 </style>
