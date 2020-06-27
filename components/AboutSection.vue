@@ -3,7 +3,7 @@
     <h1 class="mb-6">
       Eduardo Barros
       <span class="print-hidden">
-        Engenheiro de Software
+        Desenvolvedor Full Stack: Vue.js | Node.js
       </span>
     </h1>
     <h2 class="print-hidden">Sobre</h2>
