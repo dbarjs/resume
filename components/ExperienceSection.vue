@@ -3,26 +3,27 @@
     <h2>Experiência</h2>
     <article class="job">
       <h3 class="job-employer">JSBX Consulting</h3>
-      <p class="job-title">Fundador e Engenheiro de Software</p>
+      <p class="job-title">Fundador e Desenvolvedor Full Stack</p>
       <p class="job-time">Fevereiro de 2020 - o momento (4 meses)</p>
       <p class="job-city">Bandeirantes, Paraná</p>
       <p class="job-description">
         Criei a consultoria JSBX com objetivo de adquirir aprendizado com
-        Tecnologias em tempo real ao ofercer soluções corporativas desenvolvidas
-        em plataforma Web.
+        Tecnologias em tempo real ao oferecer soluções corporativas
+        desenvolvidas em plataforma Web.
       </p>
       <ul class="job-technologies">
         <li>Vue.js</li>
-        <li>Webpack</li>
+        <li>Node.js</li>
         <li>AWS DynamoDB</li>
-        <li>GCP</li>
+        <li>Firebase</li>
         <li>Google Firestore</li>
         <li>Nuxt.js</li>
+        <li>PostgreSQL</li>
       </ul>
     </article>
     <article class="job">
       <h3 class="job-employer">Elbit Digital</h3>
-      <p class="job-title">Co-Fundador</p>
+      <p class="job-title">Co-Fundador e Desenvoledor Full Stack</p>
       <p class="job-time">Jun. de 2016 - o momento (4 anos)</p>
       <p class="job-city">Palmital, São Paulo</p>
       <p class="job-description">
@@ -35,9 +36,10 @@
       <ul class="job-technologies">
         <li>JavaScript</li>
         <li>PostCSS</li>
+        <li>Webpack</li>
         <li>Gulp.js</li>
-        <li>Google Firebase</li>
-        <li>MySQL</li>
+        <li>PostgreSQL</li>
+        <li>Firebase</li>
       </ul>
     </article>
     <article class="job">
@@ -71,16 +73,15 @@
         serviços de delivery. O principal desafio foi desenvolver um framework
         Web de persistencia de dados em rede local sem servidor ativo utilizando
         WebRTC, IndexedDB e Firestore.
-        <!-- Utilizei tecnologias como IndexedDB, WebRTC e
-        Firestore para criar um sistema de persistência de dados em rede local
-        sem a necessidade de um servidor ativo. -->
       </p>
       <ul class="job-technologies">
         <li>Vue.js</li>
+        <li>Node.js</li>
         <li>Webpack</li>
         <li>Express</li>
         <li>PostgreSQL</li>
         <li>Google Firestore</li>
+        <li>Material Design</li>
       </ul>
       <br />
       <p class="job-title">Gerente Administrativo</p>
@@ -96,7 +97,7 @@
     </article>
     <article class="job">
       <h3 class="job-employer">Kabana's Info</h3>
-      <p class="job-title">Engenheiro de Software</p>
+      <p class="job-title">Desenvoledor Full Stack</p>
       <p class="job-time">Mar. de 2015 - Nov. de 2016 (1 ano e 9 meses)</p>
       <p class="job-city">Palmital, São Paulo</p>
       <p class="job-description">
@@ -108,8 +109,12 @@
       </p>
       <ul class="job-technologies">
         <li>JavaScript</li>
+        <li>CSS3</li>
+        <li>Node.js</li>
         <li>PHP</li>
-        <li>Google Firebase</li>
+        <li>Firebase</li>
+        <li>MySQL</li>
+        <li>PostgreSQL</li>
       </ul>
       <br />
       <p class="job-title">Analista Junior</p>
@@ -137,7 +142,7 @@
     </article>
     <article class="job">
       <h3 class="job-employer">Mister Rango</h3>
-      <p class="job-title">Engenheiro de Software</p>
+      <p class="job-title">Analista de BI</p>
       <p class="job-time">Set. de 2014 - Mar. de 2015 (7 meses)</p>
       <p class="job-city">Assis, São Paulo</p>
       <p class="job-description">
