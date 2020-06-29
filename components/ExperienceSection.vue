@@ -12,11 +12,13 @@
         desenvolvidas em plataforma Web.
       </p>
       <ul class="job-technologies">
+        <li>TypeScript</li>
         <li>Vue.js</li>
+        <li>Jest</li>
         <li>Node.js</li>
         <li>AWS DynamoDB</li>
-        <li>Firebase</li>
-        <li>Google Firestore</li>
+        <li>Google Firebase</li>
+        <li>Vuetify</li>
         <li>Nuxt.js</li>
         <li>PostgreSQL</li>
       </ul>
