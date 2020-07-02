@@ -79,11 +79,12 @@
       <ul class="job-technologies">
         <li>Vue.js</li>
         <li>Node.js</li>
-        <li>Webpack</li>
         <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Google Firestore</li>
+        <li>Socket.IO</li>
+        <li>Webpack</li>
+        <li>Google Firebase</li>
         <li>Material Design</li>
+        <li>PostgreSQL</li>
       </ul>
       <br />
       <p class="job-title">Gerente Administrativo</p>
